@@ -1,6 +1,68 @@
-h1{
+@media  screen and (max-width:600px) {
+    
+    div .header{
+        text-align: center;
+        background-color: white;
+        
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding: 10% 2%;
+        color: rgba(4, 0, 255, 0.897);
+    }
+    h3{
+        text-align: center;
+        
+    }
+    .pwd{
+        text-align: center;
+        
+    }
+    #screen{
+        border-radius: 20px;
+        border-color: rgba(0, 4, 255, 0.63);
+        height: 100px;
+        width: 300px;
+    
+    }
+    #button{
+        border-radius: 8px;
+    }
+    p{
+        text-align: center;
+        color: grey;
+    }
+    .below{
+        margin-top: 5%;
+        margin-left: 6%;
+        margin-right: 6%;
+        border-style: solid;
+        border-color: rgb(6, 6, 163);
+        border-radius: 25px;
+        box-shadow: 15px 15px 10px #888888;
+    
+    }
+    body{
+        background-color: rgba(86, 119, 163, 0.349);
+        
+    }
+    
+    a{
+        color: grey;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+}
+@media screen and (min-width:600px){
+
+
+div .header{
     text-align: center;
-    margin-top: 10px;
+    background-color: white;
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 2% 2%;
     color: rgba(4, 0, 255, 0.897);
 }
 h3{
@@ -15,7 +77,7 @@ h3{
     border-radius: 20px;
     border-color: rgba(0, 4, 255, 0.63);
     height: 100px;
-    width: 300px;
+    width: 500px;
 
 }
 #button{
@@ -36,14 +98,13 @@ p{
 
 }
 body{
-    background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v960-ning-30.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=63dd5f402645ef52fb7dfb592aec765a);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: rgba(86, 119, 163, 0.349);
+   
 }
 
 a{
     color: grey;
     background-color: transparent;
     text-decoration: none;
+}
 }
