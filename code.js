@@ -2,7 +2,7 @@ function passwordGenerator(){
     document.getElementById("screen").innerHTML="";
     document.getElementById("screen").style.color="blue";
 
-    let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    let charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789&*%$@";
     let len = charset.length;
     let res=""
     for(let i=0;i<12;i++){
