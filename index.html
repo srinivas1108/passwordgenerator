@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>sample</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body onload="typeEffect()">
+    <div class="container mt-3">
+   <h1>Password Generator 🔑</h1> <hr>  </div>
+   <br>
+   <h3>One Click Many passwords</h3><br>
+   <div class="pwd">
+       <input type="text" id="screen" size="30"  placeholder="Generated Password will appear here"><br><br>
+       <button type="button" id="button" class="btn btn-sm btn-primary" onclick="passwordGenerator()">Generate Password</button>&nbsp;&nbsp;
+       <button type="button" id="button" class="btn btn-sm btn-primary" onclick="copy()">Copy</button>
+
+   </div>
+   <br><br>
+   <p>I suggest you to use different passwords for different sites</p><br>
+   <p><a href="https://haveibeenpwned.com/">check if ur mail id or password is compromised/ breached in data leaks</a></p>
+   <script src="code.js"></script>
+</body>
+</html>

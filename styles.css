@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    color: rgba(4, 0, 255, 0.897);
+}
+h3{
+    text-align: center;
+    
+}
+.pwd{
+    text-align: center;
+    
+}
+#screen{
+    border-radius: 20px;
+    border-color: rgba(0, 4, 255, 0.63);
+    height: 100px;
+
+}
+#button{
+    border-radius: 8px;
+}
+p{
+    text-align: center;
+    color: grey;
+}
+body{
+    background-color: rgba(16, 214, 75, 0.007);
+}
+a{
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
