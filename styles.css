@@ -43,7 +43,9 @@
     
     }
     body{
-        background-color: rgba(93, 194, 123, 0.445);
+        background-image:linear-gradient(to bottom right,rgb(126, 156, 212), rgb(78, 182, 142) 50%);
+
+       /* background-color: rgba(93, 194, 123, 0.445);*/
         
     }
     
@@ -100,7 +102,8 @@ p{
 
 }
 body{
-    background-color: rgba(93, 194, 123, 0.445);
+    background-image:linear-gradient(to bottom right,rgb(126, 156, 212), rgb(78, 182, 142) 50%);
+
    
 }
 
